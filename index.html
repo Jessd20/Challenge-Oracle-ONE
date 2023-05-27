@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <main>
+        <div class="principal">
+            <div class="logo">
+                <img src="public/imagenes/logo.jpg" alt="logo-página" width="100px">
+            </div>
+            <div class="texto-entrada">
+                <textarea name="input" id="mensaje" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="button-container">
+                <div class="warning">
+                    <img class="exclamation-img" src="public/imagenes/exclamation.png" alt="imagen de exclamación">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="buttons">
+                    <button class="encriptar">Encriptar</button>
+                    <button class="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="encriptado">
+            <div class="contenido-salida">
+                <p class="mensaje-salida"></p>
+                <button class="copiar">Copiar</button>
+            </div>
+            <div class="contenido-previo">
+                <img class="astronauta-img" src="public/imagenes/astronauta.jpg" alt="imagen de astronauta" width="80%">
+                <p class="main-text">Ningún mensaje fue encontrado</p>
+                <p class="description">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>

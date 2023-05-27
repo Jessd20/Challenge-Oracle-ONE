@@ -1,0 +1,131 @@
+body {
+    background: #F7F8FA;
+}
+
+.principal {
+    display: inline-block;
+    width: 70%;
+}
+
+.texto-entrada {
+    margin: 2% 5%;
+}
+
+.texto-entrada textarea {
+    resize: none;
+    background-color: #F7F8FA;
+    border: none;
+    font-size: 30px;
+    color: #2772AB;
+}
+
+.texto-entrada textarea::placeholder {
+    color: #2772AB;
+}
+
+.button-container {
+    margin: 0 5%;
+}
+
+.exclamation-img {
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+.buttons button {
+    width: 40%;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 400ms all;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+.encriptar {
+    margin: 0 5% 0 0;
+    background-color: #3AAAFF;
+    border: none;
+    color: white;
+}
+
+.encriptar:hover {
+    background-color: #2772AB;
+}
+
+.desencriptar {
+    border-color: #3AAAFF;
+    color: #3AAAFF;
+}
+
+.desencriptar:hover {
+    background-color: #2772AB;
+    color: white;
+}
+
+.encriptado {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background: #3AAAFF;
+    vertical-align: top;
+    margin: 1% 0;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.contenido-previo {
+    margin: 150px 0;
+}
+
+.main-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.mensaje-salida {
+    font-size: 30px;
+}
+
+.encriptado button {
+    padding: 5% 20%;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 400ms all;
+}
+
+.copiar {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    border-color: #3AAAFF;
+    color: #3AAAFF;
+}
+
+.copiar:hover {
+    background-color: #2772AB;
+    color: white;
+}
+
+#mensaje {
+    width: 100%;
+    min-height: 450px;
+}
+
+@media screen and (max-width: 900px) {
+    .main-text {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 0.7rem;
+    }
+}
